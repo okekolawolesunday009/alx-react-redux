@@ -1,0 +1,20 @@
+/* Footer
+    =============================*/
+
+    @import url('../index.css');
+
+    .App-footer{
+        text-align: center;
+        color: black;
+        width: 100%;
+        border-top: 0.5rem solid red;
+        font-size: var(--font-x-small);
+        font-style: italic;
+    
+    }
+    
+    @media screen and (max-width: 767px) {
+        .App-footer{
+        }
+
+    }
